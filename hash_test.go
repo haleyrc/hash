@@ -1,10 +1,16 @@
 package hash_test
 
-import "testing"
+import (
+	"testing"
 
-// TODO: Remove this and replace it with your own tests
-func TestPlaceholder(t *testing.T) {
-	if true != true {
-		t.Errorf("Oops!")
+	"github.com/haleyrc/hash"
+)
+
+func TestGenerate(t *testing.T) {
+	original := "mystring"
+	hashed := hash.Generate(original)
+
+	if err := hash.Check(original, hashed); err != nil {
+		t.Errorf("Expected %q to be the hash of %q, but got error %v.", hashed, original, err)
 	}
 }

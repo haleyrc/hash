@@ -6,3 +6,9 @@
 # hash
 
 Package hash provides simple utilities for working with hashing algorithms.
+
+## Usage
+
+```
+go get github.com/haleyrc/hash
+```
