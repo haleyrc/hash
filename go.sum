@@ -1,0 +1,4 @@
+github.com/haleyrc/assert v0.0.1 h1:ASLqDCS1psCe3raaY53mzZxlOZr3QrHIX+4uXk/EIrs=
+github.com/haleyrc/assert v0.0.1/go.mod h1:v7CxAiXtZulBLCC7zOIuhDA5RawbLJPrBTyQ1UKdd+Q=
+golang.org/x/crypto v0.28.0 h1:GBDwsMXVQi34v5CCYUm2jkJvu4cbtru2U4TN2PSyQnw=
+golang.org/x/crypto v0.28.0/go.mod h1:rmgy+3RHxRZMyY0jjAJShp2zgEdOqj2AO7U0pYmeQ7U=
